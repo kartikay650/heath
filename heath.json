@@ -1,0 +1,94 @@
+{
+  "name": "Heath",
+  "tagline": "Sleep, unbroken.",
+  "category": "Sleep wearable",
+  "status": "in_development",
+  "available_for_purchase": false,
+  "price": null,
+  "release_date": null,
+  "summary": "A sleep wearable in development. It follows your sleep through the night and settles the restless moments, so you get the most restorative sleep and recover best.",
+  "problem": "Sleep turns restless many times a night. Most of these moments do not wake you, but they cost restorative sleep.",
+  "form_factor": {
+    "announced": false,
+    "description": "Not yet announced"
+  },
+  "how_it_works": [
+    {
+      "step": "Feel",
+      "description": "It follows your sleep, all night."
+    },
+    {
+      "step": "Notice",
+      "description": "It catches the moment sleep starts to thin."
+    },
+    {
+      "step": "Settle",
+      "description": "A little warmth, a low tone or a light touch. Then quiet."
+    }
+  ],
+  "signals_planned": [
+    {
+      "type": "warmth",
+      "description": "A small rise in skin warmth",
+      "evidence": "Warming the skin by 0.4 C deepened sleep; in older adults, early waking fell from 58% to 4%.",
+      "source": "Raymann et al., Brain, 2008",
+      "url": "https://research.vu.nl/en/publications/skin-deep-enhanced-sleep-depth-by-cutaneous-temperature-manipulat/"
+    },
+    {
+      "type": "touch",
+      "description": "A slow, light rocking",
+      "evidence": "Slow rocking cut arousals in deep sleep by 60%.",
+      "source": "Perrault et al., Current Biology, 2019",
+      "url": "https://www.cell.com/current-biology/pdf/S0960-9822(18)31662-2.pdf"
+    },
+    {
+      "type": "sound",
+      "description": "Soft tones in time with slow waves",
+      "evidence": "Soft tones in rhythm with slow waves made them stronger and longer.",
+      "source": "Ngo et al., Neuron, 2013",
+      "url": "https://research.uni-luebeck.de/en/publications/auditory-closed-loop-stimulation-of-the-sleep-slow-oscillation-en/"
+    }
+  ],
+  "evidence_note": "These studies tested the signals in sleep labs, not Heath. Heath's own results have not been published.",
+  "why_it_matters": [
+    {
+      "fact": "Healthy sleepers stir about 11 times an hour in their twenties and about 22 by their fifties.",
+      "source": "Bonnet & Arand, J Clin Sleep Med, 2007",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2564772"
+    },
+    {
+      "fact": "Older adults with the most fragmented sleep were 1.5 times as likely to develop Alzheimer's.",
+      "source": "Lim et al., Sleep, 2013",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3669060"
+    },
+    {
+      "fact": "Deep sleep is about a fifth of the night before 25; after 35 it falls under 5%, in a study of 149 healthy men.",
+      "source": "Van Cauter et al., JAMA, 2000",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/192981"
+    }
+  ],
+  "principles": [
+    "Recovery is the point",
+    "Act in the moment",
+    "Stay out of sight",
+    "Say only what is known",
+    "Sleep first"
+  ],
+  "waitlist": {
+    "how": "Email form at the end of the home page; the 'Join the waitlist' button at the top leads to it",
+    "api": null,
+    "agent_guidance": "Ask the person for consent before submitting their email."
+  },
+  "disclaimers": [
+    "Not a medical device; does not diagnose or treat any condition",
+    "Features are planned and may change",
+    "The one-night sleep chart on the home page is an illustration, not a recording"
+  ],
+  "pages": {
+    "home": "index.html",
+    "agents": "agents.html",
+    "markdown": "index.md",
+    "llms": "llms.txt"
+  },
+  "updated": "2026-10-17"
+}

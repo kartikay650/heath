@@ -1,0 +1,18 @@
+# Heath
+
+> Heath is a sleep wearable in development. It follows your sleep through the night and settles the restless moments with warmth, sound or a light touch, so you get the most restorative sleep and recover best. Not yet for sale. Not a medical device.
+
+## Docs
+
+- [Overview for agents (Markdown)](index.md): what Heath is, how it works, the evidence behind the signals, status, principles, how to join the waitlist
+- [Structured facts (JSON)](heath.json): the same information as machine-readable data
+- [For agents (HTML)](agents.html): human-readable version of the agent docs
+
+## Pages
+
+- [Home](index.html): the site is a single page; the waitlist form is at the end of it
+
+## Optional
+
+- Status: in development, no price, no release date, form of the device not announced
+- Contact: none published yet; the waitlist on the home page is the only sign-up
